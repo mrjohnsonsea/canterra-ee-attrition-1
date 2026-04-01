@@ -39,17 +39,6 @@ The analysis addresses two stakeholder questions:
 
 ## Model Selection
 
-Four logistic regression models were compared using AIC, AUC, Precision, and Recall on the validation set:
-
-| Model | Variables | AIC (Val) | AUC (Val) | AIC (Test) | AUC (Test) |
-|-------|-----------|-----------|-----------|------------|------------|
-| Model 1 | Age | 392.64 | 0.63 | 393.99 | 0.63 |
-| Model 2 | Age, Gender | 391.98 | 0.62 | 395.89 | 0.64 |
-| Model 3 | Age, Gender, Job Satisfaction | **387.91** | 0.63 | **391.37** | 0.66 |
-| Model 4 | Age, Gender, Job Satisfaction, Income, Gender×Income | 389.47 | 0.64 | 393.35 | 0.65 |
-
-**Model 3 was selected** as the best-performing model based on the lowest AIC on both validation and test sets.
-
 A broader feature selection process — starting from a full model with quadratic terms and applying stepwise regression — produced the **final predictive model**:
 
 ```
