@@ -119,3 +119,7 @@ Based on the model findings, the following actions are recommended for Canterra:
 **Language:** R
 
 **Libraries:** `tidyverse`, `caret`, `broom`, `car`, `readxl`, `pROC`, `margins`, `GGally`
+
+---
+
+README written with the assistance of [Claude Code](https://claude.ai/code) by Anthropic.
